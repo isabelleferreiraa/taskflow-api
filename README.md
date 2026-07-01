@@ -1,2 +1,2 @@
-# ecommerce-api-python
-API REST de e-commerce desenvolvida com FastAPI, PostgreSQL e Docker.
+# BookFlow-API
+API REST para gerenciamento de livros, autores e empréstimos utilizando FastAPI, PostgreSQL e Docker.
