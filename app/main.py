@@ -22,3 +22,5 @@ def home():
 
 app.include_router(health_router)
 app.include_router(tasks_router)
+
+print("Tasks router loaded!")
