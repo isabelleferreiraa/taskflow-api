@@ -1,11 +1,5 @@
-from datetime import date
-
-from pydantic import BaseModel
+from app.schemas.task_create import TaskCreate
 
 
-class Task(BaseModel):
-    title: str
-    description: str
-    completed: bool = False
-    urgent: bool = False
-    due_date: date
+class Task(TaskCreate):
+    id: int
